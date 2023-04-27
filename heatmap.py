@@ -7,7 +7,8 @@ from scipy.cluster.hierarchy import linkage, leaves_list, dendrogram
 
 import matplotlib.pyplot as plt
 
-data = pd.read_table("/Users/schust97/Downloads/trait_cor_matrix.txt", sep = '\t', header=0, index_col=0)
+#Insert path to module/trait correlation matrix
+data = pd.read_table("/your/file/here", sep = '\t', header=0, index_col=0)
 
 
 x_labels = data.columns.values.tolist()
